@@ -3,12 +3,15 @@ import styles from "./Article.module.css";
 function Article() {
   return (
     <div className={styles.Article}>
-      <h1 className={styles.Article__title}>Article</h1>
-      <p className={styles.Sub__title}>Turkeys protest as chicken elected voted "excellent".</p>
+      <h1 className={styles.Article__title}>Cold Turkey</h1>
       <p>
-        This is a rather thought provoking and intellectually stimulating story!
+        Turkeys protest as chickens exempt from "
+        <span className={styles.Sub__title}>tax bill</span>".
       </p>
-      <button className={styles.Article__Button}>Read more!</button>
+      {/* <p>
+        This is a rather thought provoking and intellectually stimulating story!
+      </p> */}
+      <button className={styles.Article__button}>Read more!</button>
     </div>
   );
 }

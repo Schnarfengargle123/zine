@@ -9,3 +9,21 @@
 .Sub__title {
     text-decoration: underline;
 }
+
+.Article__button {
+    width: 15%;
+    height: 20%;
+    background-color: var(--graphite);
+    color: var(--lightzest);
+    border-style: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px 1px var(--graphite);
+    transition: 180ms;
+}
+
+.Article__button:hover {
+    cursor: pointer;
+    background-color: var(--pine);
+    color: azure;
+    transform: translateY(-3px);
+}
