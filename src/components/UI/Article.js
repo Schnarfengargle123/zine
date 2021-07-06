@@ -5,10 +5,10 @@ function Article() {
     <div className={styles.Article}>
       <h1 className={styles.Article__title}>Cold Turkey</h1>
       <p>
-        Turkeys protest as chickens exempt from "
-        <span className={styles.Sub__title}>tax bill</span>".
+        <strong>Turkeys</strong> protest as chickens <em>exempt</em> from "
+        <u>tax-bill</u>".
       </p>
-      <p className={styles.Article__date}>06 June 21</p>
+      <p className={styles.Article__date}>06 July 21'</p>
       {/* <p>
         This is a rather thought provoking and intellectually stimulating story!
       </p> */}
