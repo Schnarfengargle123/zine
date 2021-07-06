@@ -1,35 +1,68 @@
 .Article {
-    width: 90%;
-    height: 23%;
-    border-radius: 3px 3px 3px 3px;
-    background-color: azure;
-    box-shadow: 1px 1px 5px 3px var(--asphalt);
+  width: 90%;
+  height: 23%;
+  border-radius: 3px 3px 3px 3px;
+  background-color: azure;
+  box-shadow: 1px 1px 5px 3px var(--asphalt);
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.Article__content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; */
+}
+
+/* This class above, .Article__content {}, could potentially inherit 
+   parent classes content, allowing for more intuitive percantage values
+   regarding width/height dimensions within style rules below, i.e.,
+   an optional extra! ("If it ain't broke, don't fix it, maybe?").
+*/
+
+.Article__favourite {
+  width: 2rem;
+  position: relative;
+  top: -13rem;
+  left: 85%;
+  font-size: xx-large;
+  /* margin-left: 5rem; */
+  transition: 180ms;
+}
+
+.Article__favourite:hover {
+  cursor: pointer;
+  background-color: var(--deepforest);
 }
 
 .Sub__title {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .Article__button {
-    margin-top: 1%;
-    width: 15%;
-    height: 18%;
-    background-color: var(--graphite);
-    color: var(--lightzest);
-    border-style: none;
-    border-radius: 2px;
-    box-shadow: 1px 1px 3px 1px var(--graphite);
-    transition: 180ms;
+  margin-top: 1%;
+  width: 15%;
+  height: 2.5rem;
+  background-color: var(--graphite);
+  color: var(--lightzest);
+  border-style: none;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px 1px var(--graphite);
+  transition: 180ms;
 }
 
 .Article__date {
-    font-size: small;
-    font-style: italic;
+  font-size: small;
+  font-style: italic;
 }
 
 .Article__button:hover {
-    cursor: pointer;
-    background-color: var(--pine);
-    color: azure;
-    transform: translateY(-3px);
+  cursor: pointer;
+  background-color: var(--pine);
+  color: azure;
+  transform: translateY(-3px);
 }
