@@ -3,11 +3,11 @@
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   width: 90vw;
   height: 100vh;
   margin: auto;
-  background-color: #729192;
+  background-color: var(--pine);
 }

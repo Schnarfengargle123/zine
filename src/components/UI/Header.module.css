@@ -1,20 +1,19 @@
-.App-header {
-    background-color: #729192;
-    min-height: 100%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-header__title {
-    color: rgb(202, 240, 36);
-    background-color: rgba(39, 51, 51, 0.822);
-    padding: .5rem 1rem;
-    box-shadow: 2px 2px 3px 2px rgb(59, 72, 85);
-    border: 5px solid rgb(160, 214, 12);
-    border-radius: 3px;
-  }
+.Header {
+  background-color: none;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 175%;
+}
+
+.Header__title {
+  color: var(--lightzest);
+  background-color: var(--deepforest);
+  padding: 0.5rem 1rem;
+  box-shadow: 2px 2px 3px 2px var(--graphite);
+  border: 5px solid var(--zest);
+  border-radius: 3px;
+}

@@ -1,9 +1,16 @@
+import "./App.css";
+
 import Header from "./components/UI/Header";
-import './App.css';
+import Article from "./components/UI/Article";
+import Footer from "./components/UI/Footer";
 
 function App() {
   return (
-    <Header />
+    <div className="App">
+      <Header />
+      <Article />
+      <Footer />
+    </div>
   );
 }
 

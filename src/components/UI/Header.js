@@ -1,12 +1,10 @@
-import './Header.module.css';
+import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1 className="App-header__title">Zine</h1>
-      </header>
-    </div>
+    <header className={styles.Header}>
+      <h1 className={styles.Header__title}>Zine</h1>
+    </header>
   );
 }
 
