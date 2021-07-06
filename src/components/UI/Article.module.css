@@ -1,6 +1,6 @@
 .Article {
     width: 90%;
-    height: 20%;
+    height: 23%;
     border-radius: 3px 3px 3px 3px;
     background-color: azure;
     box-shadow: 1px 1px 5px 3px var(--asphalt);
@@ -11,14 +11,20 @@
 }
 
 .Article__button {
+    margin-top: 1%;
     width: 15%;
-    height: 20%;
+    height: 18%;
     background-color: var(--graphite);
     color: var(--lightzest);
     border-style: none;
     border-radius: 2px;
     box-shadow: 1px 1px 3px 1px var(--graphite);
     transition: 180ms;
+}
+
+.Article__date {
+    font-size: small;
+    font-style: italic;
 }
 
 .Article__button:hover {
