@@ -14,7 +14,7 @@ function Topics() {
           </li>
         </ul>
         <Switch>
-          <Route path="/Topics">
+          <Route path="/">
             <App />
           </Route>
         </Switch>

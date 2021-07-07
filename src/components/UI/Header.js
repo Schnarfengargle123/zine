@@ -20,11 +20,11 @@ function Header() {
             </li>
           </ul>
         </nav>
-        {/* <Switch>
+        <Switch>
           <Route path="/topics">
             <Topics />
           </Route>
-        </Switch> */}
+        </Switch>
       </div>
     </Router>
   );
