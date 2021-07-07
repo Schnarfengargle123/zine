@@ -16,7 +16,9 @@ function App() {
         <Article />
         <Footer />
         <Switch>
-          <Route path="/">
+          <Route path="/topics">
+            {" "}
+            {/* Change "/topics" to "/", see what happens */}
             <Topics />
           </Route>
         </Switch>
