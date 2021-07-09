@@ -46,9 +46,9 @@ function Footer() {
         </div>
         <div className={styles.Footer__content__sitemap}>
           <Link className={styles.Sitemap__link} to="/our-story">Our Story</Link>
-          <Link className={styles.Sitemap__link} to="/our-story">Contributors</Link>
-          <Link className={styles.Sitemap__link} to="/our-story">Vavancies</Link>
-          <Link className={styles.Sitemap__link} to="/our-story">Our Sites</Link>
+          <Link className={styles.Sitemap__link} to="/contributors">Contributors</Link>
+          <Link className={styles.Sitemap__link} to="/vacancies">Vavancies</Link>
+          <Link className={styles.Sitemap__link} to="/our-sites">Our Sites</Link>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ function Header() {
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}
-                to="/topics"
+                to="/latest"
               >
                 Latest
               </NavLink>
@@ -38,7 +38,7 @@ function Header() {
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}
-                to="/topics"
+                to="/trending"
               >
                 Trending
               </NavLink>
@@ -47,7 +47,7 @@ function Header() {
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}
-                to="/topics"
+                to="/recent"
               >
                 Recent
               </NavLink>
