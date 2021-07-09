@@ -16,7 +16,7 @@ function Header() {
           <h1 className={styles.Header__title}>Zine</h1>
 
           <ul className={styles.Header__navigation}>
-            <li>
+            <li className={styles.Navigation__link}>
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}
@@ -25,7 +25,7 @@ function Header() {
                 Latest
               </NavLink>
             </li>
-            <li>
+            <li className={styles.Navigation__link}>
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}
@@ -34,7 +34,7 @@ function Header() {
                 Topics
               </NavLink>
             </li>
-            <li>
+            <li className={styles.Navigation__link}>
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}
@@ -43,7 +43,7 @@ function Header() {
                 Trending
               </NavLink>
             </li>
-            <li>
+            <li className={styles.Navigation__link}>
               <NavLink
                 className={styles.Navigation__link}
                 activeClassName={styles.Navigation__link__active}

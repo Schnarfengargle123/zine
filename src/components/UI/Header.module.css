@@ -19,8 +19,8 @@
 }
 
 .Header__navigation {
-  /* background-color: #fff; */
   width: 150%;
+  height: 120%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -36,6 +36,7 @@
 
 .Navigation__link:hover {
   color: var(--lightzest);
+  transform: translateY(-3px);
 }
 
 .Navigation__link--active {
