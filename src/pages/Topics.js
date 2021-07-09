@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import App from "../App";
@@ -13,11 +12,9 @@ function Topics() {
             <Link to="/">Home</Link>
           </li>
         </ul>
-        <Switch>
           <Route path="/">
             <App />
           </Route>
-        </Switch>
       </div>
     </Router>
   );

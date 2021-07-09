@@ -17,3 +17,16 @@
   border: 5px solid var(--zest);
   border-radius: 3px;
 }
+
+.Navigation__link {
+  color: var(--deepforest);
+  transition: 175ms;
+}
+
+.Navigation__link:hover {
+  color: var(--lightzest);
+}
+
+.Navigation__link--active {
+  color: var(--lightzest);
+}
