@@ -36,6 +36,7 @@
 
 .Navigation__link:hover {
   color: var(--lightzest);
+  font-size: 92%;
   transform: translateY(-3px);
 }
 
