@@ -12,9 +12,15 @@ import Topics from "./pages/Topics";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Article />
-      <Footer />
+      {/* <div> */}
+        <Header />
+      {/* </div> */}
+      {/* <div> */}
+        <Article />
+      {/* </div> */}
+      {/* <div> */}
+        <Footer />
+      {/* </div> */}
       <Route path="/topics">
         <Topics />
       </Route>

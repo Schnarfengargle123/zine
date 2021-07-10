@@ -11,3 +11,14 @@
   margin: auto;
   background-color: var(--pine);
 }
+
+/*
+  Media Queries
+  _____________
+*/
+
+@media (max-width: 320px) {
+  .App {
+    height: 100vh;
+  }
+}

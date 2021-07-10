@@ -43,3 +43,23 @@
 .Navigation__link--active {
   color: var(--lightzest);
 }
+
+/*
+  Media Queries
+  _____________
+*/
+
+@media (max-width: 320px) {
+  .Header__title {
+    padding: 0.2rem 0.6rem;
+    font-size: larger;
+  }
+
+  .Header__navigation {
+    width: 125%;
+  }
+
+  .Navigation__link {
+    font-size: 75%;
+  }
+}

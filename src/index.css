@@ -13,6 +13,7 @@
 
 html {
   background-color: floralwhite;
+  overflow-x: hidden;
 }
 
 body {

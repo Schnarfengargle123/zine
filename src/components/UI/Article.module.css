@@ -1,29 +1,25 @@
 .Article {
   width: 90%;
-  height: 23%;
+  height: 100%;
   border: 1px solid var(--graphite);
   border-radius: 3px 3px 3px 3px;
   background-color: azure;
   box-shadow: 1px 1px 5px 3px var(--asphalt);
-  /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-}
-
-/* .Article__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-} */
+  margin-bottom: 5%;
+}
 
-/* This class above, .Article__content {}, could potentially inherit 
-   parent classes content, allowing for more intuitive percantage values
-   regarding width/height dimensions within style rules below, i.e.,
-   an optional extra! ("If it ain't broke, don't fix it, maybe?").
-*/
+.Article__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
 
 .Article__favourite {
   width: 2rem;
@@ -40,12 +36,8 @@
   background-color: var(--deepforest);
 }
 
-.Sub__title {
-  text-decoration: underline;
-}
-
 .Article__button {
-  margin-top: 1%;
+  margin-top: 0%;
   width: 15%;
   height: 2.5rem;
   background-color: var(--graphite);
@@ -66,4 +58,43 @@
   background-color: var(--pine);
   color: azure;
   transform: translateY(-3px);
+}
+
+/*
+  Media Queries
+  _____________
+*/
+
+@media (max-width: 320px) {
+  .Article {
+  }
+
+  .Article__content {
+
+  }
+
+  .Article__title {
+    font-size: large;
+  }
+
+  .Article__blurb {
+    font-size: small;
+    width: 80%;
+  }
+
+  .Article__date {
+    font-size: smaller;
+  }
+
+  .Article__button {
+    font-size: small;
+    width: 35%;
+  }
+
+  .Article__favourite {
+    font-size: x-large;
+    position: relative;
+    top: -15.2rem;
+    left: 80%;
+  }
 }

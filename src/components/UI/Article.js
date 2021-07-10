@@ -1,3 +1,6 @@
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import styles from "./Article.module.css";
 
 function Article() {
@@ -5,7 +8,7 @@ function Article() {
     <div className={styles.Article}>
       <div className={styles.Article__content}>
         <h1 className={styles.Article__title}>Cold Turkey</h1>
-        <p>
+        <p className={styles.Article__blurb}>
           <strong>Turkeys</strong> protest as chickens <em>exempt</em> from "
           <u>tax-bill</u>".
         </p>
@@ -13,9 +16,11 @@ function Article() {
         <button className={styles.Article__button}>Read more!</button>
       </div>
 
-      <div>
-        <p className={styles.Article__favourite}>&#9825;</p>
-      </div>
+      {/* <div>
+        <p className={styles.Article__favourite}>
+          <FontAwesomeIcon icon={faHeart} />
+        </p>
+      </div> */}
     </div>
   );
 }
