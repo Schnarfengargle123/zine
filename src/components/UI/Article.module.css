@@ -1,6 +1,6 @@
 .Article {
   width: 90%;
-  height: 100%;
+  height: 30%;
   border: 1px solid var(--graphite);
   border-radius: 3px 3px 3px 3px;
   background-color: azure;
@@ -38,8 +38,8 @@
 
 .Article__button {
   margin-top: 0%;
-  width: 15%;
-  height: 2.5rem;
+  width: 8%;
+  height: 3.5rem;
   background-color: var(--graphite);
   color: var(--lightzest);
   border-style: none;
@@ -70,7 +70,6 @@
   }
 
   .Article__content {
-
   }
 
   .Article__title {
@@ -89,6 +88,7 @@
   .Article__button {
     font-size: small;
     width: 35%;
+    height: 3.2rem;
   }
 
   .Article__favourite {
@@ -96,5 +96,103 @@
     position: relative;
     top: -15.2rem;
     left: 80%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .Article {
+  }
+
+  .Article__content {
+  }
+
+  .Article__title {
+    font-size: large;
+  }
+
+  .Article__blurb {
+    font-size: small;
+    width: 80%;
+  }
+
+  .Article__date {
+    font-size: smaller;
+  }
+
+  .Article__button {
+    font-size: small;
+    width: 35%;
+    height: 3.2rem;
+  }
+
+  .Article__favourite {
+    font-size: x-large;
+    position: relative;
+    top: -15.2rem;
+    left: 80%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .Article__title {
+    font-size: large;
+  }
+
+  .Article__blurb {
+    font-size: small;
+    width: 80%;
+  }
+
+  .Article__date {
+    font-size: smaller;
+  }
+
+  .Article__button {
+    font-size: small;
+    width: 35%;
+    height: 3.2rem;
+  }
+
+  .Article__favourite {
+    font-size: x-large;
+    position: relative;
+    top: -15.2rem;
+    left: 80%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .Article {
+    height: 35%;
+  }
+
+  .Article__button {
+    font-size: small;
+    width: 35%;
+    height: 3.2rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  .Article {
+    height: 35%;
+  }
+
+  .Article__button {
+    font-size: small;
+    width: 15%;
+    height: 3.2rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .Article {
+    height: 35%;
+  }
+
+  .Article__button {
+    font-size: small;
+    width: 15%;
+    height: 3.2rem;
   }
 }

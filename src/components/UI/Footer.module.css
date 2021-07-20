@@ -19,6 +19,7 @@
   border: 2px solid var(--zest);
   border-radius: 3px;
   font-size: x-large;
+  font-family: "Kaushan Script", cursive;
 }
 
 .Footer__content {
@@ -83,12 +84,12 @@
   }
 
   .Footer__content {
-    height: 100%;
+    height: 85%;
   }
 
   .Footer__content__social {
     width: 35%;
-    height: 25%;
+    height: 15%;
     flex-wrap: wrap;
   }
 
@@ -97,8 +98,47 @@
   }
 
   .Statement__text {
-    width: 90%;
+    width: 75%;
     text-align: center;
+    margin: auto;
+  }
+
+  .Footer__content__sitemap {
+    flex-direction: column;
+    height: 15rem;
+  }
+
+  .Sitemap__link {
+    font-size: medium;
+  }
+}
+
+/* Mobile Medium */
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .Footer {
+    height: 100%;
+  }
+
+  .Footer__content {
+    height: 100%;
+  }
+
+  .Footer__content__social {
+    width: 30%;
+    height: 15%;
+    flex-wrap: wrap;
+    /* background-color: #fff; */
+  }
+
+  .Social__icon {
+    font-size: xx-large;
+  }
+
+  .Statement__text {
+    width: 75%;
+    text-align: center;
+    margin: auto;
   }
 
   .Footer__content__sitemap {
@@ -111,4 +151,43 @@
     font-size: medium;
   }
 }
+
+/* Mobile Large */
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .Footer {
+    height: 100%;
+  }
+
+  .Footer__content {
+    height: 100%;
+  }
+
+  .Footer__content__social {
+    width: 25%;
+    height: 15%;
+    flex-wrap: wrap;
+  }
+
+  .Social__icon {
+    font-size: xx-large;
+  }
+
+  .Statement__text {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .Footer__content__sitemap {
+    flex-direction: column;
+    height: 15rem;
+    /* background-color: #fff; */
+  }
+
+  .Sitemap__link {
+    font-size: medium;
+  }
+}
+
 

@@ -49,6 +49,16 @@ h6 {
   color: var(--ash);
 }
 
+h1 Link,
+h2 Link,
+h3 Link,
+h4 Link,
+h5 Link,
+h6 Link {
+  font-family: "Kaushan Script", cursive;
+  color: var(--ash);
+}
+
 p {
   color: var(--ash);
   font-family: 'Quicksand', sans-serif;

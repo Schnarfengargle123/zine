@@ -1,10 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import styles from "./Header.module.css";
 
@@ -13,7 +7,7 @@ function Header() {
     <div>
       <nav>
         <header className={styles.Header}>
-          <h1 className={styles.Header__title}>Zine</h1>
+          <h3><Link className={styles.Header__title} to="/">Zine</Link></h3>
 
           <ul className={styles.Header__navigation}>
             <li className={styles.Navigation__link}>

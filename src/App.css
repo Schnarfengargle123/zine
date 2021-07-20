@@ -17,8 +17,26 @@
   _____________
 */
 
+/* Mobile Small */
+
 @media (max-width: 320px) {
   .App {
-    height: 100vh;
+    height: 150vh;
+  }
+}
+
+/* Mobile Medium */
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .App {
+    height: 150vh;
+  }
+}
+
+/* Mobile Large */
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .App {
+    height: 150vh;
   }
 }

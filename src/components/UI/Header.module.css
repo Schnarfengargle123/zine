@@ -16,6 +16,7 @@
   box-shadow: 2px 2px 3px 2px var(--graphite);
   border: 5px solid var(--zest);
   border-radius: 3px;
+  font-family: "Kaushan Script", cursive;
 }
 
 .Header__navigation {
@@ -36,7 +37,7 @@
 
 .Navigation__link:hover {
   color: var(--lightzest);
-  /* font-size: 92%; */
+  /* font-weight: 500; */
   transform: translateY(-3px);
 }
 
@@ -49,7 +50,43 @@
   _____________
 */
 
+/* Mobile Small */
+
 @media (max-width: 320px) {
+  .Header__title {
+    padding: 0.2rem 0.6rem;
+    font-size: larger;
+  }
+
+  .Header__navigation {
+    width: 125%;
+  }
+
+  .Navigation__link {
+    font-size: 75%;
+  }
+}
+
+/* Mobile Medium */
+
+@media (max-width: 375px) {
+  .Header__title {
+    padding: 0.2rem 0.6rem;
+    font-size: larger;
+  }
+
+  .Header__navigation {
+    width: 125%;
+  }
+
+  .Navigation__link {
+    font-size: 75%;
+  }
+}
+
+/* Mobile Large */
+
+@media (max-width: 425px) {
   .Header__title {
     padding: 0.2rem 0.6rem;
     font-size: larger;
