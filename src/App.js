@@ -11,14 +11,12 @@ import Header from "./components/UI/Header";
 import Article from "./components/UI/Article.js";
 import Footer from "./components/UI/Footer";
 
-// import Topics from "./pages/navigation/Topics";
-
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-
+        {/* Items nested within routes do not have their flexbox properties applied, i.e., not centering */}
         <Switch>
           {/* <Route component={Article} exact path="/" /> */}
           {/* I only work with exact path when placed as first route */}
@@ -29,14 +27,14 @@ function App() {
           <Route path="/latest">
             <Latest />
           </Route>
-          <Route path="/recent">
-            <Recent />
-          </Route>
           <Route path="/topics">
             <Topics />
           </Route>
           <Route path="/trending">
             <Trending />
+          </Route>
+          <Route path="/recent">
+            <Recent />
           </Route>
           {/* <Route path="/">
             <Article />
