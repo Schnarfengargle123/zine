@@ -1,5 +1,7 @@
+import Article from "../../components/UI/Article";
+
 function Latest() {
-  return <h3>Latest</h3>;
+  return <Article />;
 }
 
 export default Latest;

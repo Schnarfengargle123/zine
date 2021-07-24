@@ -1,5 +1,7 @@
+import Article from "../../components/UI/Article";
+
 function Trending() {
-  return <h3>Trending</h3>;
+  return <Article />;
 }
 
 export default Trending;

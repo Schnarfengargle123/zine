@@ -17,6 +17,11 @@
   border: 5px solid var(--zest);
   border-radius: 3px;
   font-family: "Kaushan Script", cursive;
+  transition: 175ms;
+}
+
+.Header__title:hover {
+  transform: translateY(-3px);
 }
 
 .Header__navigation {

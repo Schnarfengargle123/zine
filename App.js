@@ -7,9 +7,9 @@ import Recent from "./pages/navigation/Recent.js";
 import Topics from "./pages/navigation/Topics.js";
 import Trending from "./pages/navigation/Trending.js";
 
-import Header from "./components/UI/Header";
-import Article from "./components/UI/Article.js";
-import Footer from "./components/UI/Footer";
+import Header from "./src/components/UI/Header";
+import Article from "./src/components/UI/Article.js.js";
+import Footer from "./src/components/UI/Footer";
 
 // import Topics from "./pages/navigation/Topics";
 
